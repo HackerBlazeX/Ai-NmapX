@@ -5,7 +5,6 @@ venv/
 reports/
 *.html
 *.json
-*.txt
 .DS_Store
 *.log
 assets/*.mp4
