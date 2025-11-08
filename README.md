@@ -81,3 +81,33 @@ ai-nmapx -i   # choose options, tool handles the rest and produces final HTML re
 - Tool runs everything automatically → **AI summary + final HTML report** → done ✅
 
 (README continues similarly with presets, examples, contact — full content will be written)
+
+## Features 🚀
+Ai-NmapX is built to save time and produce shareable results. Key features:
+
+- 🔧 **55+ curated scan presets & combos** (discovery, TCP/UDP/SCTP, NSE bundles, timing & evasion, web posture).
+- ⚡ **Parallel scanning**: ThreadPoolExecutor with `--max-workers` (1–50) for fast multi-host jobs.
+- 🤖 **AI-assisted triage**: automatic CVE extraction, severity classification (Low→Critical), risk-scoring (0–100), quick fixes and next steps.
+- 🌐 **Web posture checks**: TLS versions, weak cipher hints, HSTS and security headers, certificate expiry parsing.
+- 🗂️ **Reports**: default **HTML** report (dark, polished) + optional JSON/TXT.
+- 🔒 **Secure execution**: sanitized `--extra` flags, no `shell=True`, `--dry-run` preview, DNS wildcard guard.
+- 🧾 **Per-target reports** and aggregate AI summary sorted by risk.
+- 🧰 **Installer & launcher**: one-line installer creates a venv and `/usr/local/bin/ai-nmapx` launcher.
+- 📝 **CI/Lint**: simple GitHub Action lint workflow included.
+
+## Requirements ✅
+- Linux (Kali/Ubuntu recommended).  
+- nmap (7.x+): `sudo apt install nmap`  
+- Python 3.8+ (use `python3 -m venv venv`)  
+- Optional recommended Python packages: `pip install -r requirements.txt` (`colorama`, `rich`)
+- Git & GitHub CLI (`gh`) for release management (optional).
+
+
+## Troubleshooting / FAQ ❓
+- **nmap not found**: `sudo apt install nmap`  
+- **git push rejected / remote mismatch**: run `git fetch origin && git rebase origin/main` (or force only if you know what you do).  
+- **SSH key**: `ssh-keygen -t ed25519 -C "you@example.com"` then copy `~/.ssh/id_ed25519.pub` to GitHub → Settings → SSH keys.  
+- **gh auth/login issues**: `gh auth login --web` and follow the browser steps.  
+- **zsh 'event not found' when pasting heredoc**: run `set +H` before running heredoc commands.  
+- **Permission for launcher**: installer writes `/usr/local/bin/ai-nmapx` with sudo — run installer with an account that has sudo.
+
