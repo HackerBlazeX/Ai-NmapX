@@ -1,5 +1,19 @@
 # Ai-NmapX — Parallel Nmap wrapper with AI-assisted analysis & clean HTML reports 🚀
 
+### Quick Start
+Run directly:
+```bash
+python3 AI-NmapX.py
+```
+(Windows: `py -3 AI-NmapX.py`)
+
+## LEGAL NOTICE / USAGE POLICY
+Use only on systems you own or have explicit written permission to test.
+Unauthorized scanning may be illegal. The authors/contributors are not
+responsible for misuse, damage, or legal consequences. For permission or
+clarifications, open an issue on the repository.
+
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Reports](https://img.shields.io/badge/Reports-HTML%20by%20default-purple)
