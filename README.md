@@ -88,6 +88,76 @@ ai-nmapx -i   # choose options, tool handles the rest and produces final HTML re
 \`\`\`
 
 ---
+## Demo & Screenshots
+
+**Demo videos (Google Drive - unlisted)**
+
+- **Auto-fix demo:** https://drive.google.com/file/d/17Oa9SwgRrIUZm78c7M75GqiSXElI-T10/view?usp=sharing  
+- **IP list / Multi-target demo:** https://drive.google.com/file/d/1QMApWv9KAe1LCQSf6-WtAqKPTWzlo5oI/view?usp=sharing  
+- **Installation guide:** https://drive.google.com/file/d/1WV9ROJkR7G5to8Q6PNUSRyjgDsymcL5x/view?usp=sharing  
+
+> Click any link to open the unlisted demo video on Google Drive.
+
+---
+
+### Quick screenshots (click to enlarge)
+
+<div align="center">
+
+<figure>
+  <a href="assets/screenshots/demo-1.jpg"><img src="assets/screenshots/demo-1.jpg" alt="Interface" width="420"></a>
+  <figcaption><strong>Interface — Main TUI / Dashboard</strong><br><small>Shows interactive menu, presets, and worker options.</small></figcaption>
+</figure>
+
+&nbsp; &nbsp;
+
+<figure>
+  <a href="assets/screenshots/demo-2.jpg"><img src="assets/screenshots/demo-2.jpg" alt="Vuln View" width="420"></a>
+  <figcaption><strong>Vulnerability View — Per-host findings</strong><br><small>Shows vulnerabilities, CVE highlights and quick info.</small></figcaption>
+</figure>
+
+<br>
+
+<figure>
+  <a href="assets/screenshots/demo-3.jpg"><img src="assets/screenshots/demo-3.jpg" alt="Another View" width="420"></a>
+  <figcaption><strong>Scan Results — Detailed output</strong><br><small>Service/version details and port state summary.</small></figcaption>
+</figure>
+
+&nbsp; &nbsp;
+
+<figure>
+  <a href="assets/screenshots/demo-8.jpg"><img src="assets/screenshots/demo-8.jpg" alt="Scan IP list" width="420"></a>
+  <figcaption><strong>Scan IP List Demo — Multi-target input</strong><br><small>How to provide an IP list and run parallel scans.</small></figcaption>
+</figure>
+
+<br>
+
+<figure>
+  <a href="assets/screenshots/demo-4.jpg"><img src="assets/screenshots/demo-4.jpg" alt="Quick Fix 1" width="300"></a>
+  <figcaption><strong>Quick Fix Idea — 1</strong><br><small>AI suggested fix / remediation snippet.</small></figcaption>
+</figure>
+
+<figure>
+  <a href="assets/screenshots/demo-5.jpg"><img src="assets/screenshots/demo-5.jpg" alt="Quick Fix 2" width="300"></a>
+  <figcaption><strong>Quick Fix Idea — 2</strong><br><small>Suggested commands and next steps.</small></figcaption>
+</figure>
+
+<figure>
+  <a href="assets/screenshots/demo-6.jpg"><img src="assets/screenshots/demo-6.jpg" alt="Quick Fix 3" width="300"></a>
+  <figcaption><strong>Quick Fix Idea — 3</strong><br><small>Patch / config change example.</small></figcaption>
+</figure>
+
+<figure>
+  <a href="assets/screenshots/demo-7.jpg"><img src="assets/screenshots/demo-7.jpg" alt="Quick Fix 4" width="300"></a>
+  <figcaption><strong>Quick Fix Idea — 4</strong><br><small>Final recommendations & next steps.</small></figcaption>
+</figure>
+
+</div>
+
+---
+
+> **Note:** Videos are unlisted on Google Drive. Images live in `assets/screenshots/`.
+
 
 ## “No Commands Needed” Mode 😎
 - Launch \`ai-nmapx -i\`  
