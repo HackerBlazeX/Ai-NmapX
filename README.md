@@ -184,6 +184,11 @@ Ai-NmapX is built to save time and produce shareable results. Key features:
 - 🧰 **Installer & launcher**: one-line installer creates a venv and `/usr/local/bin/ai-nmapx` launcher.
 - 📝 **CI/Lint**: simple GitHub Action lint workflow included.
 
+
+Now A.I-NmapX works even without internet ⚡🤖
+Just chill & relax 😎💻
+Your data is fully secure 🔒✨
+
 ## Requirements ✅
 - Linux (Kali/Ubuntu recommended).  
 - nmap (7.x+): `sudo apt install nmap`  
