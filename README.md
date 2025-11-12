@@ -90,6 +90,11 @@ ai-nmapx -i   # choose options, tool handles the rest and produces final HTML re
 ---
 ## Demo & Screenshots
 
+> Click any link to open the unlisted demo video on Google Drive.
+
+- **Now_AiNmapX_Also_Offline:** https://drive.google.com/file/d/1PWfMjTIC3Tw_HLiRACPU0rHuref-5DOo/view?usp=sharing
+
+
 **Demo videos (Google Drive - unlisted)**
 
 - **Auto-fix demo:** https://drive.google.com/file/d/17Oa9SwgRrIUZm78c7M75GqiSXElI-T10/view?usp=sharing  
