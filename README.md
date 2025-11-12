@@ -77,17 +77,6 @@ Ai-NmapX wraps Nmap with a clean workflow and adds smart analysis:
 
 ---
 
-## Install (one command) 📦
-\`\`\`bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/HackerBlazeX/Ai-NmapX/main/install.sh)"
-\`\`\`
-
-Run the interactive menu:
-\`\`\`bash
-ai-nmapx -i   # choose options, tool handles the rest and produces final HTML report
-\`\`\`
-
----
 ## Demo & Screenshots
 
 > Click any link to open the unlisted demo video on Google Drive.
