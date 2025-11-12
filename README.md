@@ -77,6 +77,19 @@ Ai-NmapX wraps Nmap with a clean workflow and adds smart analysis:
 
 ---
 
+## Installation Process
+
+Clone the repo:
+```bash
+git clone https://github.com/HackerBlazeX/Ai-NmapX.git
+cd Ai-NmapX
+```
+
+Run:
+```bash
+python3 AI-NmapX.py
+```
+
 ## Demo & Screenshots
 
 > Click any link to open the unlisted demo video on Google Drive.
